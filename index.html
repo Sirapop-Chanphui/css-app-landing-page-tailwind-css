@@ -8,7 +8,43 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-    <!-- Start Coding Here -->
+  <body class="bg-[#e0e0ed]">
+    <section class="pt-[80px] pr-[120px] pb-[80px] pl-[120px] flex flex-col justify-center gap-20">
+      <div class="flex flex-col justify-center items-center rounded-3xl bg-white">
+        <form class ="flex flex-col justify-center items-center gap-5 h-[666px] w-[1200px]">
+          <h2 class="text-[44px] font-bold">Get in Touch</h2>
+          <div class="flex flex-col gap-1">
+            <label for="fname" class="text-[16px] text-[#5F5F76]">Name</label>
+            <input type="text" id="fname" name="fname" placeholder="John Doe" class="text-[#9393AC] text-[16px] pl-3 border-2 border-[#E0E0ED] 
+            h-[3rem] w-[34.125rem] rounded-[12px]">
+          </div>
+          <div class="flex flex-col gap-1">
+            <label for="email" class="text-[16px] text-[#5F5F76]">Email</label>
+            <input type="email" id="email" name="email" placeholder="john@gmail.com" class="text-[#9393AC] text-[16px] pl-3 border-2 border-[#E0E0ED] 
+            h-[48px] w-[546px] rounded-[12px]">
+          </div>
+          <div class="flex flex-col gap-1">
+            <label for="message" class="text-[16px] text-[#5F5F76]">Message</label>
+            <textarea id="message" name="message" placeholder="Your message..." class="text-[#9393AC] text-[16px] pl-3 pt-3 border-2 border-[#E0E0ED] 
+            h-[102px] w-[546px] rounded-[12px] resize-none">
+            </textarea>
+          </div>
+          <div class="pt-[20px] pb-[16px]">
+            <button class="bg-[#1A1A2C] h-[56px] w-[546px] text-white text-[16px] font-semibold rounded-2xl">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+      <footer class ="flex flex-row justify-between text-[16px]">
+        <span class="font-medium text-[#5F5F76]">Acme productivity app ©2024</span>
+        <div class="text-[#1A1A2C] font-semibold flex gap-9">
+          <span class="">FAQ</span>
+          <span class="">Terms</span>
+          <span class="">Al Policy</span>
+          <span class="">Pricing</span>
+        </div>
+      </footer>
+    </section>
   </body>
 </html>
