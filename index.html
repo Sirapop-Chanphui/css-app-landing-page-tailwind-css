@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="bg-[#E0E0ED]">
+  <body class="bg-[#F6F6FB]">
     <div class="min-h-screen px-4 py-6 md:px-8">
       <!-- Top navigation -->
       <header class="max-w-6xl mx-auto">
@@ -64,7 +64,7 @@
 
           <!-- Heading -->
           <h1 class="max-w-3xl mx-auto text-4xl font-extrabold leading-tight text-slate-900 md:text-6xl">
-            Boost Your <span class="bg-gradient-to-r from-[#5e44ff] to-[#8b5cf6] bg-clip-text text-transparent">Product</span 
+            Boost Your <span class="bg-gradient-to-r from-[#5e44ff] to-[#8b5cf6] bg-clip-text text-transparent">Product</span>
           <h1 class="max-w-3xl mx-auto text-4xl font-extrabold leading-tight text-slate-900 md:text-6xl">ivity</h1>
           </h1>
 
@@ -84,5 +84,112 @@
         </section>
       </header>
     </div>
+
+    <!-- feature -----------------------------------------------------------------------------------feature ----->
+    <section class="flex flex-col justify-center items-center pt-[120px] pr-[120px] pb-[140px] pl-[120px] gap-[120px] bg-[#F6F6FB]">
+      <div class="flex flex-row p-[28px] gap-[20px] ">
+        <!--  feature set 1-->
+        <div
+          class="flex flex-col bg-[#D7E5F6] rounded-[24px] p-[28px] gap-[40px]"
+        >
+          <div
+            class="flex flex-col w-[60px] h-[60px] justify-center items-center bg-[#FFFFFF99] rounded-[16px]"
+          >
+            <img src="/assets/rocket.svg" alt="rocket icon" />
+          </div>
+          <div class="flex flex-col gap-[12px]">
+            <h3 class="text-[#1A1A2C] text-[24px] font-[600]">
+              Streamlined Workflows
+            </h3>
+            <p
+              class="text-[#5F5F76] text-[16px] font-[500] leading-[24px] "
+            >
+              Automate repetitive tasks and focus on high-impact work with our
+              powerful productivity features.
+            </p>
+          </div>
+        </div>
+        <!--  feature set 2-->
+        <div
+          class="flex flex-col bg-[#D8E0FC] rounded-[24px] p-[28px] gap-[40px]"
+        >
+          <div
+            class="flex flex-col w-[60px] h-[60px] justify-center items-center bg-[#FFFFFF99] rounded-[16px]"
+          >
+            <img src="/assets/board.svg" alt="board icon"/>
+          </div>
+          <div class="flex flex-col gap-[12px]">
+            <h3 class="text-[#1A1A2C] text-[24px] font-[600]">
+              Blazing Fast Performance
+            </h3>
+            <p
+              class="text-[#5F5F76] text-[16px] font-[500] leading-[24px] "
+            >
+              Experience lightning-fast performance and instant responsiveness
+              with our cutting-edge technology.
+            </p>
+          </div>
+        </div>
+        <!--  feature set 3-->
+        <div
+          class="flex flex-col bg-[#E8DCF6] rounded-[24px] p-[28px] gap-[40px]"
+        >
+          <div
+            class="flex flex-col w-[60px] h-[60px] justify-center items-center bg-[#FFFFFF99] rounded-[16px]"
+          >
+            <img src="/assets/smile.svg" alt="smile icon" />
+          </div>
+          <div class="flex flex-col gap-[12px]">
+            <h3 class="text-[#1A1A2C] text-[24px] font-[600]">
+              Intuitive Interface
+            </h3>
+            <p
+              class="text-[#5F5F76] text-[16px] font-[500] leading-[24px] "
+            >
+              Our user-friendly interface makes it easy for anyone to streamline
+              their workflow.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="pt-[80px] pr-[120px] pb-[80px] pl-[120px] flex flex-col justify-center gap-20">
+      <div class="flex flex-col justify-center items-center rounded-3xl bg-white">
+        <form class ="flex flex-col justify-center items-center gap-5 h-[666px] w-[1200px]">
+          <h2 class="text-[44px] font-bold">Get in Touch</h2>
+          <div class="flex flex-col gap-1">
+            <label for="fname" class="text-[16px] text-[#5F5F76]">Name</label>
+            <input type="text" id="fname" name="fname" placeholder="John Doe" class="text-[#9393AC] text-[16px] pl-3 border-2 border-[#E0E0ED] 
+            h-[3rem] w-[34.125rem] rounded-[12px]">
+          </div>
+          <div class="flex flex-col gap-1">
+            <label for="email" class="text-[16px] text-[#5F5F76]">Email</label>
+            <input type="email" id="email" name="email" placeholder="john@gmail.com" class="text-[#9393AC] text-[16px] pl-3 border-2 border-[#E0E0ED] 
+            h-[48px] w-[546px] rounded-[12px]">
+          </div>
+          <div class="flex flex-col gap-1">
+            <label for="message" class="text-[16px] text-[#5F5F76]">Message</label>
+            <textarea id="message" name="message" placeholder="Your message..." class="text-[#9393AC] text-[16px] pl-3 pt-3 border-2 border-[#E0E0ED] 
+            h-[102px] w-[546px] rounded-[12px] resize-none">
+            </textarea>
+          </div>
+          <div class="pt-[20px] pb-[16px]">
+            <button class="bg-[#1A1A2C] h-[56px] w-[546px] text-white text-[16px] font-semibold rounded-2xl">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+      <footer class ="flex flex-row justify-between text-[16px]">
+        <span class="font-medium text-[#5F5F76]">Acme productivity app ©2024</span>
+        <div class="text-[#1A1A2C] font-semibold flex gap-9">
+          <span class="">FAQ</span>
+          <span class="">Terms</span>
+          <span class="">Al Policy</span>
+          <span class="">Pricing</span>
+        </div>
+      </footer>
+    </section>
   </body>
 </html>
