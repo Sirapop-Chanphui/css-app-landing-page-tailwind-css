@@ -8,12 +8,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="bg-[#F6F6FB]">    
-    <div class="px-4 py-6 ">
+  <body class="bg-[#F6F6FB]">
+    <div class="px-4 py-6">
       <!-- Top navigation -->
       <header>
         <nav
-          class="flex items-center justify-between w-screen bg-white/90 rounded-full py-3 px-6 sticky top-4 z-20 shadow-[0_15px_40px_rgba(17,24,39,0.08)] backdrop-blur">
+          class="flex items-center justify-between w-screen bg-white/90 rounded-full py-3 px-6 sticky top-4 z-20 shadow-[0_15px_40px_rgba(17,24,39,0.08)] backdrop-blur"
+        >
           <div class="text-xl font-semibold tracking-tight text-slate-900">
             Acme<span class="text-[#5e44ff] align-super text-sm">°</span>
           </div>
@@ -50,9 +51,7 @@
         </nav>
 
         <!-- Hero section -->
-        <section
-          class="relative pt-20 pb-24 text-center md:pt-24 md:pb-32"
-        >
+        <section class="relative pt-20 pb-24 text-center md:pt-24 md:pb-32">
           <!-- Badge -->
           <div
             class="inline-flex items-center gap-2 px-4 py-2 mb-6 text-sm font-medium text-[#5e45ff] bg-[#e4e1fa] rounded-full"
@@ -62,15 +61,13 @@
           </div>
 
           <!-- Heading -->
-          <div class="flex flex-row justify-center font-extrabold"> 
+          <div class="flex flex-row justify-center font-extrabold">
             <span class="text-[80px]">Boost Your</span>
             <span class="text-[80px] text-[#5E44FF]">Product</span>
             <span class="text-[80px]">ivity</span>
           </div>
           <!-- Subheading -->
-          <p
-            class="text-[24px] font-semibold pt-[20px]"
-          >
+          <p class="text-[24px] font-semibold pt-[20px]">
             Streamline your workflow with our all-in-one productivity app
           </p>
 
@@ -85,24 +82,24 @@
     </div>
 
     <!-- feature -----------------------------------------------------------------------------------feature ----->
-    <section class="flex flex-col justify-center items-center pt-[0px] pr-[120px] pb-[140px] pl-[120px] gap-[120px] bg-[#F6F6FB]">
-      <div class="flex flex-row p-[28px] gap-[20px] ">
+    <section
+      class="flex flex-col justify-center items-center pt-[0px] lg:pr-[120px] lg:pb-[140px] lg:pl-[120px] bg-[#F6F6FB] md:pr-[24px] md:pb-[120px] md:pl-[24px] md:gap-[120px]  pr-[16px] pb-[80px] pl-[16px] gap-[80px]"
+    >
+      <div class="flex md:flex-row flex-col gap-[16px] p-[28px] md:gap-[20px]">
         <!--  feature set 1-->
         <div
-          class="flex flex-col bg-[#D7E5F6] rounded-[24px] p-[28px] gap-[40px]"
+          class="flex flex-col flex-1 bg-[#D7E5F6] rounded-[24px] lg:p-[28px] lg:gap-[40px] transform hover:scale-105 transition-transform p-[24px] gap-[24px]"
         >
           <div
             class="flex flex-col w-[60px] h-[60px] justify-center items-center bg-[#FFFFFF99] rounded-[16px]"
           >
             <img src="/assets/rocket.svg" alt="rocket icon" />
           </div>
-          <div class="flex flex-col gap-[12px]">
+          <div class="flex flex-col lg:gap-[12px] gap-[8px]">
             <h3 class="text-[#1A1A2C] text-[24px] font-[600]">
               Streamlined Workflows
             </h3>
-            <p
-              class="text-[#5F5F76] text-[16px] font-[500] leading-[24px] "
-            >
+            <p class="text-[#5F5F76] text-[16px] font-[500] leading-[24px]">
               Automate repetitive tasks and focus on high-impact work with our
               powerful productivity features.
             </p>
@@ -110,20 +107,18 @@
         </div>
         <!--  feature set 2-->
         <div
-          class="flex flex-col bg-[#D8E0FC] rounded-[24px] p-[28px] gap-[40px]"
+          class="flex flex-col flex-1 bg-[#D8E0FC] rounded-[24px] p-[28px] gap-[40px] transform hover:scale-105 transition-transform"
         >
           <div
             class="flex flex-col w-[60px] h-[60px] justify-center items-center bg-[#FFFFFF99] rounded-[16px]"
           >
-            <img src="/assets/board.svg" alt="board icon"/>
+            <img src="/assets/board.svg" alt="board icon" />
           </div>
           <div class="flex flex-col gap-[12px]">
             <h3 class="text-[#1A1A2C] text-[24px] font-[600]">
               Blazing Fast Performance
             </h3>
-            <p
-              class="text-[#5F5F76] text-[16px] font-[500] leading-[24px] "
-            >
+            <p class="text-[#5F5F76] text-[16px] font-[500] leading-[24px]">
               Experience lightning-fast performance and instant responsiveness
               with our cutting-edge technology.
             </p>
@@ -131,7 +126,7 @@
         </div>
         <!--  feature set 3-->
         <div
-          class="flex flex-col bg-[#E8DCF6] rounded-[24px] p-[28px] gap-[40px]"
+          class="flex flex-col flex-1 bg-[#E8DCF6] rounded-[24px] p-[28px] gap-[40px] transform hover:scale-105 transition-transform"
         >
           <div
             class="flex flex-col w-[60px] h-[60px] justify-center items-center bg-[#FFFFFF99] rounded-[16px]"
@@ -142,9 +137,7 @@
             <h3 class="text-[#1A1A2C] text-[24px] font-[600]">
               Intuitive Interface
             </h3>
-            <p
-              class="text-[#5F5F76] text-[16px] font-[500] leading-[24px] "
-            >
+            <p class="text-[#5F5F76] text-[16px] font-[500] leading-[24px]">
               Our user-friendly interface makes it easy for anyone to streamline
               their workflow.
             </p>
