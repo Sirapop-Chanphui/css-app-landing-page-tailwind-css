@@ -8,7 +8,151 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="bg-[#F6F6FB]">
+  <body class="bg-[#F6F6FB]">    
+    <div class="px-4 py-6 ">
+      <!-- Top navigation -->
+      <header>
+        <nav
+          class="flex items-center justify-between w-screen bg-white/90 rounded-full py-3 px-6 sticky top-4 z-20 shadow-[0_15px_40px_rgba(17,24,39,0.08)] backdrop-blur">
+          <div class="text-xl font-semibold tracking-tight text-slate-900">
+            Acme<span class="text-[#5e44ff] align-super text-sm">°</span>
+          </div>
+          <ul class="hidden text-sm font-medium md:flex gap-8 pr-[50px]">
+            <li>
+              <a
+                href="#"
+                class="text-[#5e44ff] transition-colors duration-200 hover:text-[#5e44ff] hover:underline underline-offset-[6px] decoration-2 decoration-[#5e44ff]"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[#5f5f78] transition-colors duration-200 hover:text-[#5e44ff] hover:underline underline-offset-[6px] decoration-2 decoration-[#5e44ff]"
+                >Features</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[#5f5f78] transition-colors duration-200 hover:text-[#5e44ff] hover:underline underline-offset-[6px] decoration-2 decoration-[#5e44ff]"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-[#5f5f78] transition-colors duration-200 hover:text-[#5e44ff] hover:underline underline-offset-[6px] decoration-2 decoration-[#5e44ff]"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Hero section -->
+        <section
+          class="relative pt-20 pb-24 text-center md:pt-24 md:pb-32"
+        >
+          <!-- Badge -->
+          <div
+            class="inline-flex items-center gap-2 px-4 py-2 mb-6 text-sm font-medium text-[#5e45ff] bg-[#e4e1fa] rounded-full"
+          >
+            <span class="text-base">🚀</span>
+            <span class="">Acme Productivity App</span>
+          </div>
+
+          <!-- Heading -->
+          <div class="flex flex-row justify-center font-extrabold"> 
+            <span class="text-[80px]">Boost Your</span>
+            <span class="text-[80px] text-[#5E44FF]">Product</span>
+            <span class="text-[80px]">ivity</span>
+          </div>
+          <!-- Subheading -->
+          <p
+            class="text-[24px] font-semibold pt-[20px]"
+          >
+            Streamline your workflow with our all-in-one productivity app
+          </p>
+
+          <!-- Call to action -->
+          <button
+            class="inline-flex items-center justify-center h-[56px] px-8 py-3 mt-8 text-sm font-semibold text-white bg-slate-900 rounded-[16px] hover:bg-slate-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-slate-900 focus-visible:ring-offset-[#f5f3ff]"
+          >
+            Start Free Trial
+          </button>
+        </section>
+      </header>
+    </div>
+
+    <!-- feature -----------------------------------------------------------------------------------feature ----->
+    <section class="flex flex-col justify-center items-center pt-[0px] pr-[120px] pb-[140px] pl-[120px] gap-[120px] bg-[#F6F6FB]">
+      <div class="flex flex-row p-[28px] gap-[20px] ">
+        <!--  feature set 1-->
+        <div
+          class="flex flex-col bg-[#D7E5F6] rounded-[24px] p-[28px] gap-[40px]"
+        >
+          <div
+            class="flex flex-col w-[60px] h-[60px] justify-center items-center bg-[#FFFFFF99] rounded-[16px]"
+          >
+            <img src="/assets/rocket.svg" alt="rocket icon" />
+          </div>
+          <div class="flex flex-col gap-[12px]">
+            <h3 class="text-[#1A1A2C] text-[24px] font-[600]">
+              Streamlined Workflows
+            </h3>
+            <p
+              class="text-[#5F5F76] text-[16px] font-[500] leading-[24px] "
+            >
+              Automate repetitive tasks and focus on high-impact work with our
+              powerful productivity features.
+            </p>
+          </div>
+        </div>
+        <!--  feature set 2-->
+        <div
+          class="flex flex-col bg-[#D8E0FC] rounded-[24px] p-[28px] gap-[40px]"
+        >
+          <div
+            class="flex flex-col w-[60px] h-[60px] justify-center items-center bg-[#FFFFFF99] rounded-[16px]"
+          >
+            <img src="/assets/board.svg" alt="board icon"/>
+          </div>
+          <div class="flex flex-col gap-[12px]">
+            <h3 class="text-[#1A1A2C] text-[24px] font-[600]">
+              Blazing Fast Performance
+            </h3>
+            <p
+              class="text-[#5F5F76] text-[16px] font-[500] leading-[24px] "
+            >
+              Experience lightning-fast performance and instant responsiveness
+              with our cutting-edge technology.
+            </p>
+          </div>
+        </div>
+        <!--  feature set 3-->
+        <div
+          class="flex flex-col bg-[#E8DCF6] rounded-[24px] p-[28px] gap-[40px]"
+        >
+          <div
+            class="flex flex-col w-[60px] h-[60px] justify-center items-center bg-[#FFFFFF99] rounded-[16px]"
+          >
+            <img src="/assets/smile.svg" alt="smile icon" />
+          </div>
+          <div class="flex flex-col gap-[12px]">
+            <h3 class="text-[#1A1A2C] text-[24px] font-[600]">
+              Intuitive Interface
+            </h3>
+            <p
+              class="text-[#5F5F76] text-[16px] font-[500] leading-[24px] "
+            >
+              Our user-friendly interface makes it easy for anyone to streamline
+              their workflow.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="pt-[0px] pr-[120px] pb-[80px] pl-[120px] flex flex-col justify-center gap-20
       max-md:pt-[0px] max-md:pr-[24px] max-md:pl-[24px] max-md:pb[80px]
       max-sm:pr-[16px] max-sm:pl-[16px] max-sm:gap-15
